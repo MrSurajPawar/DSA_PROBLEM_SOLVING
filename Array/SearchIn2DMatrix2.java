@@ -26,4 +26,4 @@ public class SearchIn2DMatrix2 {
         boolean result = searchElement(matrix, 8);
         System.out.println(result ? "true" : "false");
     }
-
+}

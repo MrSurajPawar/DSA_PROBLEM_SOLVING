@@ -1,3 +1,8 @@
+//Deletion of LL in four ways : 
+// 1.head position 
+// 2.Tail position
+// 3.Kth position
+// 4.Value-based position
 class Node{
     int data;
     Node next;

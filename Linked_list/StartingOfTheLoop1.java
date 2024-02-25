@@ -1,3 +1,4 @@
+//Using the hashset method 
 import java.util.*;
 class Node {
         int num;

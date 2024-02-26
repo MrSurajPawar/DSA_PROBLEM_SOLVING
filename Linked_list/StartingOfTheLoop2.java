@@ -1,3 +1,4 @@
+//using Tortoise and Hare algorithm 
 class Node {
         int num;
         Node next;

@@ -10,7 +10,7 @@ public class Insertionsort {
                 nums[j-1] = nums[j];
                 nums[j] = temp;
 
-                j--
+                j--;
             }
         }   
         return nums;

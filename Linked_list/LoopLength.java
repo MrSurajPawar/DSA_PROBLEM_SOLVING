@@ -9,7 +9,7 @@ public class LoopLength
             slow = slow.next;
         }
         return countOfSlow;
-    }
+    
     public static int lengthOfLoop(Node head) {
         Node slow = head , fast = head;
          

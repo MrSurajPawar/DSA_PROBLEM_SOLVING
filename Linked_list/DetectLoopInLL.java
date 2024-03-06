@@ -11,7 +11,7 @@ class Node {
         this.data = data;
         this.next = null;
     }
-}
+
 
 public class DetectLoopInLL {
     public static boolean detectCycle(Node head) {

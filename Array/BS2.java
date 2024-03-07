@@ -25,4 +25,3 @@ public class BS2 {
             System.out.println("The target is at index: " + ind);
     }
 }
-

@@ -1,4 +1,4 @@
-package Srings;
+package DSA_PROBLEM_SOLVING.Strings;
 
 public class ReverseWordString {
         public String reverseWords(String s) {

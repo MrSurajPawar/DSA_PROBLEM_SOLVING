@@ -22,4 +22,3 @@ public class IsomorphicStrings {
         return true;
     }
 }
-

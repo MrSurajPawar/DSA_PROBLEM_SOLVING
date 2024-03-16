@@ -22,5 +22,5 @@ public class BS1 {
             else
                 System.out.println("The target is at index: " + ind);
     }
-
+}
 

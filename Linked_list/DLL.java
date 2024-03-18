@@ -7,7 +7,7 @@ class ListNode {
         this.data = data1;
         this.next = next1;
         this.back = back1;
-    }
+    
 
     ListNode(int data) {
         this.data = data;

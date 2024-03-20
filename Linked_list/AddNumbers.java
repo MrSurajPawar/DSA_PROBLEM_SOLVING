@@ -11,7 +11,7 @@ class Solution {
             if (temp1 != null)   sum += temp1.val;
             if (temp2 != null)   sum += temp2.val;
 
-            ListNode newNode = new ListNode( sum % 10);     //Unit digit of su
+            ListNode newNode = new ListNode( sum % 10);     //Unit digit of sum
             carry = sum / 10;       //tenth's place
             curr.next = newNode;
             curr = curr.next;

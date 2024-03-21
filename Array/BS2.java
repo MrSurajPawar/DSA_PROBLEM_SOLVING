@@ -1,4 +1,4 @@
-public class BS2 {
+public class BS2 
 
     public static int binarySearch(int[] nums, int low, int high, int target) {
         if (low > high) return -1; //Base case.

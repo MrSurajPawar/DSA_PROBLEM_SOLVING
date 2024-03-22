@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*
 
 public class BookAllocationProblem {
     public static int countStudents(ArrayList<Integer> arr, int pages) {

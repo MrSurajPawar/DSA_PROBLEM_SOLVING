@@ -4,7 +4,6 @@ class Stack {
     int top;
     int maxsize = 10;
     int[] arr = new int[maxsize];
-
     boolean isEmpty() {
         return (top < 0);
     }

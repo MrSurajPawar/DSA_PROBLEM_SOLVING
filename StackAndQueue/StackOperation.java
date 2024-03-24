@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Stack {
     int top;
     int maxsize = 10;
-    int[] arr = new int[maxsize];
+    int[] arr = new int[maxsize]
 
     boolean isEmpty() {
         return (top < 0);

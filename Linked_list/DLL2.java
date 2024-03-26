@@ -1,6 +1,6 @@
 class ListNode {
     int data;
-    ListNode next
+    ListNode next;
     ListNode back;
 
     ListNode(int data1 , ListNode next1 , ListNode back1) {

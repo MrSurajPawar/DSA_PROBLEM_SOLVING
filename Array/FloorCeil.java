@@ -4,7 +4,7 @@ public class FloorCeil {
         int ans = -1;
 
         while (low <= high) {
-            int mid = (low + high) / 2
+            int mid = (low + high) / 2;
             // maybe an answer
             if (arr[mid] <= x) {
                 ans = arr[mid];

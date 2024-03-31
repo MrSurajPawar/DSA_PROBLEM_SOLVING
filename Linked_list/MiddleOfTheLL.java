@@ -1,5 +1,5 @@
 //finding the middle of the linked list ...
-public class MiddleOfTheLL 
+public class MiddleOfTheLL {
         public ListNode middleNode(ListNode head) {
             //Tortoise and HAre algorithm
             ListNode slow = head , fast = head;

@@ -1,4 +1,4 @@
-public class SortLL 
+public class SortLL {
     public static ListNode findMiddleNode( ListNode head) {
         ListNode slow = head , fast = head.next;
 

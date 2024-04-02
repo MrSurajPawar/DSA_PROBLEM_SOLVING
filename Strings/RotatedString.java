@@ -1,5 +1,4 @@
-package Strings
-
+package Strings;
 public class RotatedString {
         public boolean rotateString(String s, String goal) {
             if (s.length() != goal.length()) {

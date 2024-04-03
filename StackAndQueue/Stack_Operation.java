@@ -1,51 +1,51 @@
-import java.util.*;
+import java.util.Scanner;
 
 class Stack {
-    int top = -1;
+    int top;
     int maxsize = 10;
-    int arr[] = new int[maxsize];
+    int[] arr = new int[maxsize];
 
-    // constructor
+    boolean isEmpty() {
+        return (top < 0);
+    }
+
+    // Initializing the top
     Stack() {
         top = -1;
     }
 
-    // push operation
-    boolean push(Scanner sc) {
+    void push(Scanner sc) {
         if (top == maxsize - 1) {
-            System.out.println("Overflow");
-            return false;
+            System.out.println("Overflow !!");
         } else {
-            System.out.println("Enter the element to push :");
+            System.out.println("Enter Value");
             int val = sc.nextInt();
             top++;
             arr[top] = val;
             System.out.println("Item pushed");
-            return true;
         }
     }
 
-    // pop operation
-    boolean pop() {
+    void pop() {
         if (top == -1) {
-            System.out.println("Underflow");
-            return false;
+            System.out.println("Underflow !!");
+            // return false;
         } else {
             top--;
             System.out.println("Item popped");
-            return true;
+            // return true;
         }
     }
 
-    // display operation
     void display() {
+        System.out.println("Printing stack elements .....");
         for (int i = top; i >= 0; i--) {
             System.out.println(arr[i]);
         }
     }
 }
 
-public class Stack_Operation {
+public class StackOperation {
     public static void main(String[] args) {
         int choice = 0;
         Scanner sc = new Scanner(System.in);
@@ -56,27 +56,30 @@ public class Stack_Operation {
             System.out.println("\nChose one from the below options...\n");
             System.out.println("\n1.Push\n2.Pop\n3.Show\n4.Exit");
             System.out.println("\n Enter your choice \n");
-
             choice = sc.nextInt();
-
             switch (choice) {
-                case 1:
+                case 1: {
                     s.push(sc);
                     break;
-                case 2:
+                }
+                case 2: {
                     s.pop();
                     break;
-                case 3:
+                }
+                case 3: {
                     s.display();
                     break;
-                case 4:
-                    System.out.println("Exiting...");
+                }
+                case 4: {
+                    System.out.println("Exiting....");
                     System.exit(0);
                     break;
-                case 5:
+                }
+                default: {
                     System.out.println("Please Enter valid choice ");
+                }
             }
-
+            ;
         }
     }
 }

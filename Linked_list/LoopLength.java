@@ -1,5 +1,5 @@
 public class LoopLength 
-{
+
     private static int findLength(Node slow , Node fast) {
         int countOfSlow = 1;
         slow = slow.next;

@@ -1,4 +1,4 @@
-class ListNode {
+class ListNode 
     int data;
     ListNode next;
     ListNode back;

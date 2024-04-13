@@ -1,4 +1,4 @@
-import java.util.Stack
+import java.util.Stack;
 public class ImplementQueueUsingStacks {
         Stack<Integer> s1 = new Stack();
         Stack<Integer> s2 = new Stack();

@@ -1,4 +1,4 @@
-public class BS1 
+public class BS1 {
         public static int binarySearch(int[] nums, int target) {
             int n = nums.length; //size of the array.
             int low = 0, high = n - 1;

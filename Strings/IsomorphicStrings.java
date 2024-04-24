@@ -1,6 +1,6 @@
 package Strings;
 
-import java.util.HashMap
+import java.util.HashMap;
 
 public class IsomorphicStrings {
     public boolean isIsomorphic(String s, String t) {

@@ -1,4 +1,4 @@
-public class DeleteMiddleNode 
+public class DeleteMiddleNode {
         public ListNode deleteMiddle(ListNode head) {
             ListNode fast = head , slow = head , prev =  null;
     

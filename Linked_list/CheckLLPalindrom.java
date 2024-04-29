@@ -1,4 +1,4 @@
-public class CheckLLPalindrom {
+public class CheckLLPalindrom 
     
         private static ListNode reverseSecondHalf(ListNode head) {
             if(head == null || head.next == null) return head;

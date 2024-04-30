@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*
 
 public class AggresiveCows {
     public static boolean canWePlace(int[] stalls, int dist, int cows) {

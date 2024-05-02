@@ -1,5 +1,4 @@
-package SlidingWindowProblem;
-
+package SlidingWindowProblem
 class Solution {
     public int maxScore(int[] cardPoints, int k) {
         int n = cardPoints.length;

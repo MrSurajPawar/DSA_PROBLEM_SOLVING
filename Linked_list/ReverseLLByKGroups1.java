@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.ArrayList
 
 public class ReverseLLByKGroups1 {
     public static ArrayList function(ArrayList<Integer> arr, int n, int k) {

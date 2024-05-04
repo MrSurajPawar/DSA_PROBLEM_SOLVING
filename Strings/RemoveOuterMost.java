@@ -1,4 +1,4 @@
-class Solution 
+class Solution {
     public String removeOuterParentheses(String s) {
         StringBuilder str = new StringBuilder();
         int opened = 0;

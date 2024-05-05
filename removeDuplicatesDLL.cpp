@@ -1,5 +1,5 @@
 Node * removeDuplicates(Node *head)
-
+{
     Node* temp = head;
 
     while (temp != nullptr && temp->next != nullptr) {

@@ -1,4 +1,4 @@
-class Solution 
+class Solution {
     public int beautySum(String s) {
         int sum = 0;
         for (int i = 0 ; i < s.length() ; i++) {

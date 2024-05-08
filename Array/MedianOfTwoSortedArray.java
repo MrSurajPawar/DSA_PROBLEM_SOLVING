@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*
 
 public class MedianOfTwoSortedArray {
     public static double median(int[] a, int[] b) {

@@ -1,4 +1,4 @@
-class Solution {
+class Solution 
     public int lengthOfLongestSubstring(String s) {
         int l = 0 , r = 0 , length = 0 , maxlength = 0 ;
         int hash[] = new int[256];

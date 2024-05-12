@@ -1,4 +1,4 @@
-class Solution 
+class Solution {
     public static ListNode findNthNode(ListNode temp , int k) {
         int count = 1;
         while (temp != null) {

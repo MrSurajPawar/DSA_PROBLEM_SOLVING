@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Solution {
     static int partition(List<Integer> arr, int low, int high) {
         int pivot = arr.get(low);

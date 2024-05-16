@@ -1,4 +1,4 @@
-public class sortColor 
+public class sortColor {
         public static void sortColors(int[] nums) {
             int zero=0, one=0, two=0;
     

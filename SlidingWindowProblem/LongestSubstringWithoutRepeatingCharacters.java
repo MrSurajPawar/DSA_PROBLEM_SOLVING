@@ -5,7 +5,6 @@ class Solution {
         for (int i = 0 ; i < hash.length ; i++) {
             hash[i] = -1;
         }
-
         while (r < s.length()) {
             if (hash[s.charAt(r)] != -1) {
                 if (hash[s.charAt(r)] >= l) 

@@ -10,7 +10,6 @@ public class MinStack {
         }
         stk.push(val);
     }
-
     public void pop() {
         if (stk.pop() == min)
             min = stk.pop();

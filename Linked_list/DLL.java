@@ -15,7 +15,6 @@ class ListNode {
         this.back = null;
     }
 }
-
 public class DLL {
     private static ListNode convertToDLL(int[] arr) {
         ListNode head = new ListNode(arr[0]);

@@ -4,7 +4,6 @@ class Solution {
         ListNode dummyNode = new ListNode( -1 );    //dummyNode
         ListNode curr = dummyNode;
         int carry = 0;
-
         while ( temp1 != null || temp2 != null) {
             int sum = carry;
 

@@ -9,7 +9,6 @@ class Solution {
                 prefix = prefix.substring(0 , prefix.length()-1 );
             }
         }
-
         return prefix;
     }
 }
